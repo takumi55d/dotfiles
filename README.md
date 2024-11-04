@@ -1,7 +1,7 @@
 # Dotfiles
 Dotfiles From My Archlinux
 
-#### Clone Url
+#### Clone Git repo for the dotfiles
 ```bash
 git clone https://github.com/takumi55d/dotfiles ~/Dotfiles && cd ~/Dotfiles
 ```
