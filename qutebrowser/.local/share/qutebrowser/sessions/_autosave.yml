@@ -1,0 +1,38 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAAAAAB2sAAAP6AAAAAAAAAAAAAAd/AAAENwAAAAACAAAAB4AAAAAAAAAA
+    AAAAB2sAAAP6
+  tabs:
+  - active: true
+    history:
+    - last_visited: '2024-11-04T14:39:30'
+      pinned: false
+      title: Minimal Homepage
+      url: file:///home/sr/.config/BraveSoftware/home.html
+    - last_visited: '2024-11-04T14:39:51'
+      pinned: false
+      title: YouTube
+      url: https://www.youtube.com/
+    - last_visited: '2024-11-04T14:39:51'
+      pinned: false
+      title: Let's Find Out! Which one is best for Beginners and Experts in Cyber
+        Security - YouTube
+      url: https://www.youtube.com/watch?v=xyE8eYY5QvE
+    - last_visited: '2024-11-04T14:39:59'
+      pinned: false
+      title: YouTube
+      url: https://www.youtube.com/
+    - last_visited: '2024-11-04T14:40:06'
+      pinned: false
+      title: Let's Find Out! Which one is best for Beginners and Experts in Cyber
+        Security - YouTube
+      url: https://www.youtube.com/watch?v=xyE8eYY5QvE
+    - active: true
+      last_visited: '2024-11-04T15:36:54'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: YouTube
+      url: https://www.youtube.com/
+      zoom: 1.0

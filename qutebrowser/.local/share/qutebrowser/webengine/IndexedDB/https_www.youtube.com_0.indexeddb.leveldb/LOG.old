@@ -1,0 +1,15 @@
+2024/11/04-14:39:35.386 53f2 Reusing MANIFEST /home/sr/.local/share/qutebrowser/webengine/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/04-14:39:35.386 53f2 Recovering log #70
+2024/11/04-14:39:35.391 53f2 Reusing old log /home/sr/.local/share/qutebrowser/webengine/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000070.log 
+2024/11/04-15:36:56.558 53f2 Level-0 table #75: started
+2024/11/04-15:36:56.569 53f2 Level-0 table #75: 1143619 bytes OK
+2024/11/04-15:36:56.573 53f2 Delete type=0 #70
+2024/11/04-15:36:56.574 53f2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/11/04-15:36:56.575 53f2 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0f\x02\x1f\x03\x9a\x11\x0b\x9eg/yB\x00\x03\x00\x00\x00\x00\x00`g@' @ 59217 : 1
+2024/11/04-15:36:56.575 53f2 Compacting 1@1 + 1@2 files
+2024/11/04-15:36:56.581 53f2 Generated table #76@1: 330 keys, 33159 bytes
+2024/11/04-15:36:56.581 53f2 Compacted 1@1 + 1@2 files => 33159 bytes
+2024/11/04-15:36:56.584 53f2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/04-15:36:56.584 53f2 Delete type=2 #72
+2024/11/04-15:36:56.584 53f2 Delete type=2 #75
+2024/11/04-15:36:56.585 53f2 Manual compaction at level-1 from '\x00\x0f\x02\x1f\x03\x9a\x11\x0b\x9eg/yB\x00\x03\x00\x00\x00\x00\x00`g@' @ 59217 : 1 .. (end); will stop at (end)

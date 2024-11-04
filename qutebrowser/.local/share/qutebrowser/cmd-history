@@ -1,0 +1,100 @@
+:open -t al-falak.org
+:open al-falak org
+:open y
+:tab-focus 2
+:history
+:open -t http://nigger.free.nf/
+:open smb.rf.gd
+:open -t goo.gle
+:open -t qmplay2
+:open bind
+:history
+:open y
+:open -t https://chatgpt.com/
+:open ch
+:open https://chatgpt.com/
+:open y
+:open https://chatgpt.com/
+:open -t 
+:bind
+:open -t cg
+:open y
+:open -t https://web.archive.org/web/20220216104120/http://index-of.es/
+:bind
+/download
+:open -t https://chatgpt.com/
+:open -t y
+:open youtube.com
+:open y
+:open -t https://www.youtube.com/watch?v=c1ZCHCwqWls
+:open -t https://www.youtube.com/watch?v=68R3kwpuLR4
+:open -t https://www.youtube.com/watch?v=Eupyx0z_I6A
+:open -t https://www.youtube.com/results?search_query=bash+scripting+
+:open -t 
+:open -t goolge.com
+:config-source
+:open 
+:undo -w
+:undo --window
+:open 
+:config-source 
+:open -t 
+:open y
+:open -t https://chatgpt.com/
+:config-edit
+:config-source 
+:d hi
+:ddg hi
+:config-source
+:d hi
+:ddg hi
+:config-source
+:open -t g
+:open -t google
+:quickmark-add
+:quickmark-add https://google.com
+:quickmark-add https://google.com g
+:open g
+:open -t y
+:open t
+:open -t 
+:open -t g
+:open -t animepahe.org
+:open https://animepahe.ru/play/db2c86be-2470-0fff-de0d-aa1024aae841/e1c39c2aefd0d1fcc1465d742d53bdb0ef501e64a60fac431448ec271847761a
+:open greasyforks
+:open -t 
+:open y
+:open -t https://google.com
+:open -t 
+:open y
+:open https://chatgpt.com/
+:open -t https://chatgpt.com/
+:open search.brave.com
+:config-source 
+:open -t 
+:open -t file:///home/sr/.config/BraveSoftware/home.html
+:open file:///home/sr
+:open -t youtu.be
+:open https://www.youtube.com/
+:config-write-py
+:config-source
+:q
+:open y
+:open chatgpt.com
+:history
+/searchengines
+:config-source
+:open -t yt
+:yt low level learning
+:g nice
+:g:new
+:open y
+:q
+:open y
+:open -t 
+:bookmark-list
+:open -t 
+:bookmark-list
+:open -t b
+:open -t yazi
+:open y

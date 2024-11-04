@@ -1,0 +1,6 @@
+2024/10/26-01:33:47.429 10373 Creating DB /home/sr/.local/share/qutebrowser/webengine/WebStorage/5/IndexedDB/indexeddb.leveldb since it was missing.
+2024/10/26-01:33:47.436 10373 Reusing MANIFEST /home/sr/.local/share/qutebrowser/webengine/WebStorage/5/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/10/26-01:33:54.371 10373 Level-0 table #5: started
+2024/10/26-01:33:54.374 10373 Level-0 table #5: 8948 bytes OK
+2024/10/26-01:33:54.378 10373 Delete type=0 #3
+2024/10/26-01:33:54.378 10373 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
