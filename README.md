@@ -7,4 +7,4 @@ git clone https://github.com/takumi55d/dotfiles ~/Dotfiles && cd ~/Dotfiles
 ```
 #### Create needed symlinks using gnu **stow**
 ```bash
-stow $(/bin/ls)
+stow $(/bin/ls | grep -v README.md)
