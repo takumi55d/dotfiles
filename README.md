@@ -9,4 +9,3 @@ git clone https://github.com/takumi55d/dotfiles ~/Dotfiles && cd ~/Dotfiles
 ```bash
 stow $(/bin/ls | grep -v README.md)
 ```
-```
