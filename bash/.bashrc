@@ -110,8 +110,7 @@ alias ai='aichat ${command[0]}'
 alias fm='frogmouth'
 alias py='python'
 alias mc='micro'
-alias g='bash ~/.search_and_browser_with_googler_and_carbonyl.sh'
-
+alias ag='git add . && git commit -a -m "edit $(date)"'
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-bash/plugins/*)
 # Custom plugins may be added to ~/.oh-my-bash/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
