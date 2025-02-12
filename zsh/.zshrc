@@ -135,3 +135,4 @@ alias ytd='yt-dlp -f "bestvideo[height<=1080]+bestaudio" --merge-output-format m
 alias xcp='xclip -selection clipboard'
 alias ag='[ "$(git remote -v)" ] && git add . && git commit -a -m "committed on $(date)" && git push || git add . && git commit -a -m "committed on $(date)"'
 alias lyt='lyrics'
+alias neofetch='fastfetch'
