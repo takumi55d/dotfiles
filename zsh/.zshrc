@@ -107,6 +107,7 @@ eval "$(zoxide init zsh)"
 
 # Created by `pipx` on 2024-06-07 04:30:52
 export PATH="$PATH:/home/sr/.local/bin"
+export GEMINI_API_KEY="AIzaSyAvLrohLi4tcAK70e2c00bohqAY7NtiDf0"
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -123,16 +124,14 @@ alias hx='helix'
 alias mpv-cli='mpv --no-config --vo=tct'
 alias ls='exa --icons --group-directories-first'
 alias fzf='fzf --preview="bat --color=always {}"'
-alias ai='aichat ${command[0]}'
-alias fm='frogmouth'
 alias py='python'
 alias speedtest='speedtest --bytes'
 alias mc='micro'
 alias lg='ls | grep'
 alias cd='z'
-alias kali='ssh -i ~/.ssh/kali-aws.pem kali@3.109.182.147'
 alias ytd='yt-dlp -f "bestvideo[height<=1080]+bestaudio" --merge-output-format mp4 -N 64' 
 alias xcp='xclip -selection clipboard'
 alias ag='[ "$(git remote -v)" ] && git add . && git commit -a -m "committed on $(date)" && git push || git add . && git commit -a -m "committed on $(date)"'
 alias lyt='lyrics'
 alias neofetch='fastfetch'
+alias mb='sudo systemctl start docker && sudo docker start mullvad-browser'
