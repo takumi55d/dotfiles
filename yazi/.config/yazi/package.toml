@@ -38,5 +38,20 @@ use = "boydaihungst/restore"
 rev = "89fddfd"
 hash = "b442aa672e07ec0765b4b00e7bfdc9b5"
 
+[[plugin.deps]]
+use = "GianniBYoung/rsync"
+rev = "ed7b7f9"
+hash = "bf05f8a280bbbdd723968f243421274"
+
+[[plugin.deps]]
+use = "pirafrank/what-size"
+rev = "0a4904c"
+hash = "fca231a128488a554823374f8f6d5241"
+
+[[plugin.deps]]
+use = "boydaihungst/gvfs"
+rev = "31ee219"
+hash = "d5fd432608a2822ddced18e6544c9ca1"
+
 [flavor]
 deps = []

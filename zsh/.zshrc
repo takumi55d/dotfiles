@@ -10,6 +10,7 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
 export EDITOR="nvim"
 export PATH="$PATH:/usr/bin/cargo"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
