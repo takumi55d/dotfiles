@@ -9,11 +9,14 @@ fi
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+export PATH="/opt/android-studio/bin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
+export JAVA_HOME=/usr/lib/jvm/java-24-openjdk/
+export PATH="$JAVA_HOME/bin:$PATH"
 export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
 export EDITOR="nvim"
 export PATH="$PATH:/usr/bin/cargo"
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+#export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -117,6 +120,8 @@ export GEMINI_API_KEY="AIzaSyAvLrohLi4tcAK70e2c00bohqAY7NtiDf0"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ff='fastfetch'
+alias nv='nvim'
 alias x='exit'
 alias msk='musikcube'
 alias y='yazi'
@@ -135,4 +140,5 @@ alias xcp='xclip -selection clipboard'
 alias ag='[ "$(git remote -v)" ] && git add . && git commit -a -m "committed on $(date)" && git push || git add . && git commit -a -m "committed on $(date)"'
 alias lyt='lyrics'
 alias neofetch='fastfetch'
+alias p='wl-paste | /sbin/zsh'
 alias mb='sudo systemctl start docker && sudo docker start mullvad-browser'
