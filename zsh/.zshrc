@@ -17,6 +17,9 @@ setopt hist_ignore_dups
 setopt hist_find_no_dups
 setopt hist_ignore_space
 
+#text editor of choice
+export EDITOR="nvim"
+
 #zoxide setup
 eval "$(zoxide init zsh)"
 
