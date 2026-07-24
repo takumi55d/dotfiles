@@ -19,6 +19,8 @@ setopt hist_ignore_space
 
 #text editor of choice
 export EDITOR="nvim"
+#Nix shell default
+export NIX_BUILD_SHELL=zsh
 
 #Bindkey
 bindkey -e
@@ -39,16 +41,16 @@ alias cd='z'
 alias ytd='yt-dlp -f "bestvideo[height<=1080]+bestaudio" --merge-output-format mp4 -N 64' 
 alias ag='[ "$(git remote -v)" ] && git add . && git commit -a -m "committed on $(date)" && git push || git add . && git commit -a -m "committed on $(date)"'
 alias neofetch='fastfetch'
-alias p='wl-paste | /sbin/zsh'
-alias wpp='wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05+'
-alias wpm='wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05-'
+#alias p='wl-paste | /sbin/zsh'
+alias vu='wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05+'
+alias vd='wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05-'
 
 #powerlevel10k
 source ~/.zsh_plugins/powerlevel10k/powerlevel10k.zsh-theme
 
 #Autocomplete
 #setopt interactivecomments
-#source ~/.zsh_plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source ~/.zsh_plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 #Syntax Highlighting
 source ~/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
