@@ -30,18 +30,14 @@ alias x='exit'
 alias msk='musikcube'
 alias y='yazi'
 alias ls='exa --icons --group-directories-first'
-alias fzf='fzf --preview="bat --color=always {}"'
 alias py='python'
 alias mc='micro'
 alias lg='ls | grep'
 alias cd='z'
 alias ytd='yt-dlp -f "bestvideo[height<=1080]+bestaudio" --merge-output-format mp4 -N 64' 
-alias xcp='xclip -selection clipboard'
 alias ag='[ "$(git remote -v)" ] && git add . && git commit -a -m "committed on $(date)" && git push || git add . && git commit -a -m "committed on $(date)"'
 alias neofetch='fastfetch'
 alias p='wl-paste | /sbin/zsh'
-alias mb='sudo systemctl start docker && sudo docker start mullvad-browser'
-alias clean-ram= 'sudo echo 3 | sudo tee /proc/sys/vm/drop_caches'
 
 #powerlevel10k
 source ~/.zsh_plugins/powerlevel10k/powerlevel10k.zsh-theme
