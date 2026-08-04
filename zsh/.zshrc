@@ -1,3 +1,7 @@
+#if [[ -z "$TMUX" && $- == *i* ]]; then
+#    exec tmux new-session -A -s main
+#fi
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -19,13 +23,14 @@ setopt hist_ignore_space
 
 #text editor of choice
 export EDITOR="nvim"
-#Nix shell default
-export NIX_BUILD_SHELL=zsh
 
 #Bindkey
 bindkey -e
 #zoxide setup
 eval "$(zoxide init zsh)"
+
+# Created by `pipx` on 2026-08-02 15:49:05
+export PATH="$PATH:/home/sr/.local/bin"
 
 # alias
 alias ff='fastfetch'
@@ -44,6 +49,9 @@ alias neofetch='fastfetch'
 #alias p='wl-paste | /sbin/zsh'
 alias vu='wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05+'
 alias vd='wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05-'
+alias bu='brightnessctl -q s 10%+'
+alias bd='brightnessctl -q s 10%-'
+alias nsz='nix-shell --run /usr/bin/zsh'
 
 #powerlevel10k
 source ~/.zsh_plugins/powerlevel10k/powerlevel10k.zsh-theme
@@ -60,3 +68,4 @@ source ~/.zsh_plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
