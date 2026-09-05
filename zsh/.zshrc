@@ -25,7 +25,7 @@ setopt hist_ignore_space
 export EDITOR="nvim"
 
 #Bindkey
-#bindkey -e
+bindkey -e
 #zoxide setup
 eval "$(zoxide init zsh)"
 
