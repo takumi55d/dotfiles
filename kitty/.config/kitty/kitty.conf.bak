@@ -6,7 +6,9 @@ bold_italic_font same_as_family
 font_size 12.0
 
 # Opacity
-background_opacity 0.8
+background_opacity 0.75
+#blur
+background_blur 1
 
 # Window decorations
 hide_window_decorations yes
@@ -33,6 +35,6 @@ repaint_delay 2
 remember_window_size  no
 
 # BEGIN_KITTY_THEME
-# Tokyo Night Storm
+# Catppuccin-Macchiato
 include current-theme.conf
 # END_KITTY_THEME

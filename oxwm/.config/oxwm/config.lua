@@ -29,16 +29,16 @@ local terminal = "kitty"
 -- local colors = require("colors.lua") and make colors.lua a file
 -- in the ~/.config/oxwm directory
 local colors = {
-  fg = "#bbbbbb",
-  red = "#f7768e",
-  bg = "#1a1b26",
-  cyan = "#0db9d7",
-  green = "#9ece6a",
-  lavender = "#a9b1d6",
-  light_blue = "#7aa2f7",
-  grey = "#bbbbbb",
-  blue = "#6dade3",
-  purple = "#ad8ee6",
+	fg = "#bbbbbb",
+	red = "#f7768e",
+	bg = "#1a1b26",
+	cyan = "#0db9d7",
+	green = "#9ece6a",
+	lavender = "#a9b1d6",
+	light_blue = "#7aa2f7",
+	grey = "#bbbbbb",
+	blue = "#6dade3",
+	purple = "#ad8ee6",
 }
 
 -- Workspace tags - can be numbers, names, or icons (requires a Nerd Font)
@@ -55,52 +55,52 @@ local bar_font = "JetBrainsMono Nerd Font:style=Bold:size=10"
 -- Define your blocks
 -- Similar to widgets in qtile, or dwmblocks
 local blocks = {
-  oxwm.bar.block.ram({
-    format = "Ram: {used}/{total} GB",
-    interval = 5,
-    color = colors.light_blue,
-    underline = true,
-  }),
-  oxwm.bar.block.static({
-    text = "│",
-    interval = 999999999,
-    color = colors.lavender,
-    underline = false,
-  }),
-  oxwm.bar.block.shell({
-    format = "{}",
-    command = "uptime -p|cut -d' ' -f2- ",
-    interval = 5,
-    color = colors.red,
-    underline = true,
-  }),
-  oxwm.bar.block.static({
-    text = "│",
-    interval = 999999999,
-    color = colors.lavender,
-    underline = false,
-  }),
-  oxwm.bar.block.datetime({
-    format = "{}",
-    date_format = "%a, %b %d - %-I:%M %P",
-    interval = 1,
-    color = colors.cyan,
-    underline = true,
-  }),
-  -- Uncomment to add battery status (useful for laptops)
-  oxwm.bar.block.battery({
-    format = "Bat: {}%",
-    charging = "⚡ Bat: {}%",
-    discharging = "- Bat: {}%",
-    full = "✓ Bat: {}%",
-    interval = 30,
-    color = colors.green,
-    underline = true,
-    -- click: run a command when the block is clicked
-    click = "kitty -e btop",
-    -- click = { command = "bluetui", floating = true },
-  }),
-};
+	oxwm.bar.block.ram({
+		format = "Ram: {used}/{total} GB",
+		interval = 5,
+		color = colors.light_blue,
+		underline = true,
+	}),
+	oxwm.bar.block.static({
+		text = "│",
+		interval = 999999999,
+		color = colors.lavender,
+		underline = false,
+	}),
+	oxwm.bar.block.shell({
+		format = "{}",
+		command = "uptime -p|cut -d' ' -f2- ",
+		interval = 5,
+		color = colors.red,
+		underline = true,
+	}),
+	oxwm.bar.block.static({
+		text = "│",
+		interval = 999999999,
+		color = colors.lavender,
+		underline = false,
+	}),
+	oxwm.bar.block.datetime({
+		format = "{}",
+		date_format = "%a, %b %d - %-I:%M %P",
+		interval = 1,
+		color = colors.cyan,
+		underline = true,
+	}),
+	-- Uncomment to add battery status (useful for laptops)
+	oxwm.bar.block.battery({
+		format = "Bat: {}%",
+		charging = "⚡ Bat: {}%",
+		discharging = "- Bat: {}%",
+		full = "✓ Bat: {}%",
+		interval = 30,
+		color = colors.green,
+		underline = true,
+		-- click: run a command when the block is clicked
+		click = "kitty -e btop",
+		-- click = { command = "bluetui", floating = true },
+	}),
+}
 
 -------------------------------------------------------------------------------
 -- Basic Settings
@@ -218,9 +218,15 @@ oxwm.key.bind({ modkey }, "Return", oxwm.spawn_terminal())
 -- Launch Dmenu
 oxwm.key.bind({ modkey }, "D", oxwm.spawn({ "sh", "-c", "dmenu_run -l 6" }))
 -- Copy screenshot to clipboard
-oxwm.key.bind({ modkey }, "S",
-  oxwm.spawn({ "sh", "-c",
-    "maim -s | tee ~/Pictures/Screenshots/$(date +'%Y-%m-%d_%H-%M-%S').png | xclip -selection clipboard -t image/png" }))
+oxwm.key.bind(
+	{ modkey },
+	"S",
+	oxwm.spawn({
+		"sh",
+		"-c",
+		"maim -s | tee ~/Pictures/Screenshots/$(date +'%Y-%m-%d_%H-%M-%S').png | xclip -selection clipboard -t image/png",
+	})
+)
 oxwm.key.bind({ modkey }, "Q", oxwm.client.kill())
 
 --clipboard
@@ -348,8 +354,8 @@ oxwm.key.bind({ modkey, "Control", "Shift" }, "9", oxwm.tag.toggletag(8))
 -- Format: {{modifiers}, key1}, {{modifiers}, key2}, ...
 -- Example: Press Mod4+Space, then release and press T to spawn a terminal
 oxwm.key.chord({
-  { { modkey }, "Space" },
-  { {},         "T" }
+	{ { modkey }, "Space" },
+	{ {}, "T" },
 }, oxwm.spawn_terminal())
 
 -------------------------------------------------------------------------------
@@ -361,5 +367,5 @@ oxwm.key.chord({
 -- oxwm.autostart("picom")
 -- oxwm.autostart("xwallpaper --zoom /home/sr/Pictures/wallpapers/Wet-Road.jpg")
 oxwm.autostart("xwallpaper --zoom /home/sr/Pictures/wallpapers/cabin.png")
--- oxwm.autostart("dunst")
+oxwm.autostart("setxkbmap -option caps:escape_shifted_capslock &")
 -- oxwm.autostart("nm-applet")
