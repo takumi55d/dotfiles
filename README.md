@@ -3,7 +3,7 @@ Dotfiles From My Archlinux
 
 #### Clone Git repo for the dotfiles
 ```bash
-git clone https://github.com/takumi55d/dotfiles ~/Dotfiles && cd ~/Dotfiles
+git clone --depth=1 https://github.com/takumi55d/dotfiles ~/Dotfiles && cd ~/Dotfiles
 ```
 #### Create needed symlinks using gnu **stow** and the dotfiles will be configured and ready to use
 ```bash
