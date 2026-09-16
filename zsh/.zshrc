@@ -59,6 +59,8 @@ source ~/.zsh_plugins/powerlevel10k/powerlevel10k.zsh-theme
 #Autocomplete
 #setopt interactivecomments
 source ~/.zsh_plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+# Enable Zsh native completion engine (if not already handled by zsh-autocomplete)
+autoload -Uz compinit && compinit
 
 #Syntax Highlighting
 source ~/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
