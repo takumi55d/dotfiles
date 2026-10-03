@@ -10,6 +10,9 @@ background_opacity 0.75
 #blur
 background_blur 1
 
+#shell
+shell zsh
+
 # Window decorations
 hide_window_decorations yes
 
@@ -35,6 +38,6 @@ repaint_delay 2
 remember_window_size  no
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Macchiato
+# Tokyo Night
 include current-theme.conf
 # END_KITTY_THEME

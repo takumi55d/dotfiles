@@ -24,6 +24,9 @@ setopt hist_ignore_space
 #text editor of choice
 export EDITOR="nvim"
 
+#manpager
+export MANPAGER="nvim"
+
 #Bindkey
 bindkey -e
 #zoxide setup
