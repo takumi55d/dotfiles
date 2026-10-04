@@ -26,10 +26,6 @@ local margin_cm = 2
 local margin_inch = margin_cm * cm_to_inch
 local margin_pixels = margin_inch * dpi
 
--- Adjust the initial size to consider the padding
-config.initial_cols = 180
-config.initial_rows = 40
-
 -- Hide the tab bar when only one tab is open
 config.hide_tab_bar_if_only_one_tab = true
 
