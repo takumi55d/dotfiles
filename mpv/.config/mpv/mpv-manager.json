@@ -1,0 +1,28 @@
+{
+  "last_check": "",
+  "auto_update": false,
+  "installed_apps": [
+    {
+      "id": "app-198825891150e1c51703a3f10118f1d3c43d60565759c1e810f8801437d2b32f",
+      "app_name": "MPV",
+      "app_type": "app",
+      "install_method": "mpv-package",
+      "install_path": "/usr/sbin/mpv",
+      "installed_date": "2026-10-05",
+      "app_version": "0.41.0-6",
+      "update_available": false,
+      "ui_type": "modernz",
+      "managed": true
+    }
+  ],
+  "manager_in_path": false,
+  "manager_bin_path": "",
+  "install_path": "",
+  "mpv_config_path": "",
+  "uosc_version": "",
+  "modernz_version": "0.3.3",
+  "ffmpeg_version": "",
+  "current_ui_type": "",
+  "create_manager_shortcut": false,
+  "hwa_decoder_preference": ""
+}

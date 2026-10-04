@@ -1,0 +1,62 @@
+[2026-10-05 00:24:10] === MPV.Rocks Installer Log Started ===
+[2026-10-05 00:24:10] Timestamp: 2026-10-05T00:24:10+06:00
+[2026-10-05 00:24:10] [INFO] Config file saved to: /home/sr/.config/mpv/mpv-manager.json
+[2026-10-05 00:24:10] [INFO] Created default config file: /home/sr/.config/mpv/mpv-manager.json
+[2026-10-05 00:24:10] [DEBUG] vulkaninfo command failed: platform probe vulkaninfo failed: exec: "vulkaninfo": executable file not found in $PATH
+[2026-10-05 00:24:10] [DEBUG] [GPU] No codec database match found for GPU: "AMD Radeon Graphics" (brand: amd), using fallback
+[2026-10-05 00:24:11] [INFO] Refreshing version check cache...
+[2026-10-05 00:24:11] [INFO] [Detection] Starting concurrent MPV app detection...
+[2026-10-05 00:24:11] [DEBUG] [Detection] Flatpak not available
+[2026-10-05 00:24:11] [DEBUG] [Detection] Detected package manager family: arch
+[2026-10-05 00:24:11] [DEBUG] [Detection] Found MPV Package: 0.41.0-6
+[2026-10-05 00:24:11] [INFO] [Detection] Found 1 Package Manager apps
+[2026-10-05 00:24:11] [INFO] [Detection] Total detected apps: 1
+[2026-10-05 00:24:11] [INFO] [Detection] Adding newly detected app: MPV (mpv-package at /usr/sbin/mpv)
+[2026-10-05 00:24:11] [INFO] Adding app to installed_apps: MPV
+[2026-10-05 00:24:11] [INFO] App type: app, Method: mpv-package, ID: app-198825891150e1c51703a3f10118f1d3c43d60565759c1e810f8801437d2b32f
+[2026-10-05 00:24:11] [INFO] Config file saved to: /home/sr/.config/mpv/mpv-manager.json
+[2026-10-05 00:24:11] [INFO] Added 1 newly detected apps to config
+[2026-10-05 00:24:11] [INFO] Version check cache refreshed: 1 updates, 1 package versions
+[2026-10-05 00:24:11] [DEBUG] Desktop shortcut creation is disabled in settings
+[2026-10-05 00:24:11] [INFO] Web server listening on 127.0.0.1:6787
+[2026-10-05 00:24:11] [INFO] Browser opened automatically: http://127.0.0.1:6787
+[2026-10-05 00:24:12] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:24:12] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:24:18] [INFO] [API]Adopt app request received: app_name=MPV, method=mpv-package, ui_type=modernz
+[2026-10-05 00:24:20] [INFO] [SSE] Client disconnected from job stream (total events: 11)
+[2026-10-05 00:24:20] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:24:21] [INFO] Config file saved to: /home/sr/.config/mpv/mpv-manager.json
+[2026-10-05 00:24:21] [INFO] Config file saved to: /home/sr/.config/mpv/mpv-manager.json
+[2026-10-05 00:24:21] [INFO] Updated app MPV (app-198825891150e1c51703a3f10118f1d3c43d60565759c1e810f8801437d2b32f): managed=true, uiType=modernz
+[2026-10-05 00:24:21] [INFO] [API]Adopt job completed successfully: MPV
+[2026-10-05 00:25:37] [INFO] [SSE] Client disconnected from job stream (total events: 40)
+[2026-10-05 00:25:37] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:25:41] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:25:41] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:26:00] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:26:00] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:26:37] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:26:37] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:27:16] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:27:16] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:27:19] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:27:19] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:27:22] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:27:22] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:27:23] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:27:24] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:27:34] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:27:34] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:27:36] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:27:37] [DEBUG] Keyring: native store unavailable: failed to retrieve password: The name is not activatable
+[2026-10-05 00:27:37] [WARN] [API]Keyring status detection failed: failed to retrieve password: The name is not activatable
+[2026-10-05 00:27:37] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:27:49] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:27:49] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:28:14] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:28:14] [INFO] [SSE] Client connected to job stream: job_id=
+[2026-10-05 00:28:17] [INFO] [SSE] Client disconnected from job stream (total events: 0)
+[2026-10-05 00:28:19] [INFO] [SSE] Client disconnected from job stream (total events: 56)
+[2026-10-05 00:29:11] [INFO] Received shutdown signal
+[2026-10-05 00:29:11] [INFO] Shutting down HTTP server...
+[2026-10-05 00:29:11] === MPV.Rocks Installer Log Ended ===
